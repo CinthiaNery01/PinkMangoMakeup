@@ -1,2 +1,2 @@
-# PinkMangoMankeup
+# PinkMangoMakeup
 My first website
