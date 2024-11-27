@@ -9,6 +9,8 @@ html {
   align-items: center;
   justify-content: center;
   padding-top: 80px;
+  justify-content: space-between; /* Adjust if necessary */
+  background-size: cover;
 }
 
 header {
@@ -68,14 +70,18 @@ header {
   margin-top: 5px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.container {
+  display:flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 80px);
-  padding: 0px 20px 0px 20px;
+  /*min-height: calc(100vh - 80px);*/
+  margin: 0px 100px 0px 100px;
   text-align: center;
+}
+
+.container-products {
+  display: flex;
+  
 }
 
 h1 {
@@ -143,7 +149,25 @@ h3 {
 }
 
 .container-2 {
-  margin-top: 800px;
+  text-align: center;
+}
+
+/* Wrap the carousel in a custom container */
+.custom-carousel-container {
+  max-width: 600px; /* Set the maximum width */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+/* Adjust the height of carousel images */
+.carousel-inner img {
+  text-align: center;
+  max-height: 500px; /* Adjust for responsive sizing */
+  object-fit: cover;
+  width: 100%; /* Ensure proper alignment */
+}
+
+.product{
+  height: 300px;
 }
 
 /* Mobile styles */
