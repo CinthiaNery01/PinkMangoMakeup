@@ -17,6 +17,7 @@
 <body
   style="background-image: url('images/background-about\ us.png'); background-size: cover; background-repeat:repeat-x; background-attachment: fixed;">
   <header>
+    <!--LEFT NAV-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary1 w-100 m-0 bg-transparent">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu_list"
@@ -24,15 +25,17 @@
           <img src="images/menu.png" style="height:1.5rem;" />
         </button>
         <div class="collapse navbar-collapse" id="menu_list">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="z-index: 1;" <li class="nav-item dropdown">
-            <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="images/menu.png" style="height:1.5rem;" />
-            </button>
-            <ul class="dropdown-menu dropdown-menu-white" style="border-color: #ccff00; border-width: 5px;">
-              <li><a class="dropdown-item" href="#">Lips</a></li>
-              <li><a class="dropdown-item" href="#">Eyes</a></li>
-              <li><a class="dropdown-item" href="#">Face</a></li>
-            </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="z-index: 1;">
+
+            <li class="nav-item dropdown">
+              <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="images/menu.png" style="height:1.5rem;" />
+              </button>
+              <ul class="dropdown-menu dropdown-menu-white" style="border-color: #ccff00; border-width: 5px;">
+                <li><a class="dropdown-item" href="#">Lips</a></li>
+                <li><a class="dropdown-item" href="#">Eyes</a></li>
+                <li><a class="dropdown-item" href="#">Face</a></li>
+              </ul>
             </li>
 
             <li class="nav-item">
@@ -42,31 +45,37 @@
               <a class="nav-link text-white" href="best-sellers.html">Best Sellers</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="about-us.html">About Us</a>
+              <a class="nav-link" href="about-us.html" style="color: #ccff00">About Us</a>
             </li>
           </ul>
-
+<!--LOGO NAV-->
           <div class="position-absolute w-100 text-center d-lg-block d-none" style="z-index: 0;">
             <a class="navbar-brand" href="index.html">
               <img src="https://glorious-disco-x5w6jvpq9v5fpv5q-5500.app.github.dev/images/logo-laranja.png"
                 class="logo-laranja" />
             </a>
           </div>
-
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="z-index: 1;">
+<!--RIGHT NAV-->
+          <ul class="navbar-nav" style="z-index: 1;">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Search</a>
+              <a class="nav-link text-white" href="#"><img src="images/search.png" style="width: 20px;" />
+                Search</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Login</a>
+              <a class="nav-link text-white" href="#"> <img src="images/profile.png" style="width: 20px;">
+                Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white">Cart</a>
+              <a class="nav-link text-white"> <img src="images/cart.png" style="width: 20px;" />
+                Cart</a>
             </li>
           </ul>
+
+
         </div>
       </div>
     </nav>
+
   </header>
 
   <div class="container-2">
@@ -133,8 +142,8 @@
   </div>
 
   <div class="container">
-    <div class="row" style="margin-top: 50px;">
-      <h2>Sustentability</h2>
+    <div class="row";">
+      <h2 style="padding: 50px;">Sustentability</h2>
       <div class="col-md-6 col-left">
         <p style="text-align: justify;">
           At Pink Mango, we believe beauty should empower without compromising
