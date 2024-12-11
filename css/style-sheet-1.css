@@ -160,6 +160,10 @@ h3 {
     max-width: 480px;
   }
 
+  .navbar {
+    background-color: #000;
+  }
+
   .nav-left a,
   .nav-right a {
     font-size: 0.9rem;
